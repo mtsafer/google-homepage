@@ -3,17 +3,12 @@ body{
 }
 
 #logo{
-	margin-top: 200px;
-}
-
-form{
-	text-align: center;
+	margin-top: 160px;
 }
 
 .search-bar{
-	display: block;
 	margin: 30px auto;
-	width: 480px;
+	width: 540px;
 	height: 40px;
 	border: 1px solid lightgray;
 }
@@ -27,14 +22,25 @@ form{
 	box-shadow: none;
 }
 
+.round{
+	border-radius: 100%;
+}
+
 .btn{
 	background-color: #f6f6f6;
-	border: none;
+	border: 1px solid white;
 	color: gray;
 	font-weight: bold;
+	font-size: 12px;
 	border-radius: 2px;
-	padding: 8px 14px;
+	padding: 10px 16px;
 	margin: 0px 4px;
+}
+
+.btn:hover{
+	background-color: #f6f6f6;
+	border: 1px solid lightgray;
+	color: gray;
 }
 
 .footer{
@@ -52,6 +58,67 @@ form{
 	font-size: 13px;
 }
 
-a{
+.footer a{
 	color: gray;
+}
+
+.footer .pull-right{
+	padding-right: 50px;
+}
+
+.footer .pull-left{
+	padding-left: 50px;
+}
+
+#sbv{
+	display: inline;
+	width: 18px;
+	height: 25.6px;
+	margin-left: 50px;
+}
+
+.search-input{
+	width: 430px;
+	height: 35px;
+	padding: 0px;
+	left: 0px;
+	border: none;
+}
+
+.search-input:focus{
+	outline-width: 0px;
+}
+
+.nav ul{
+	margin-top: 20px;
+	margin-right: 20px;
+}
+
+.nav ul li{
+	list-style: none;
+	display: inline;
+	margin-right: 20px;
+}
+
+.nav a{
+	color: #2f3032;
+}
+
+.notification{
+	background-color: gray;
+	border-radius: 100%;
+	width: 20px;
+	height: 20px;
+	padding: 5px;
+}
+
+.round{
+	border-radius: 100%;
+	width: 30px;
+	height: 30px;
+}
+
+.app{
+	height: 20px;
+	width: 20px;
 }
